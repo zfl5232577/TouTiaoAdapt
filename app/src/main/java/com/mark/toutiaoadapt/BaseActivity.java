@@ -2,6 +2,8 @@ package com.mark.toutiaoadapt;
 
 import android.support.v7.app.AppCompatActivity;
 
+import com.mark.toutiaoadapt.screenadapt.TouTiaoAdapter;
+
 /**
  * Copyright (C), 2018-2019, 奥昇科技有限公司
  * ClassName    : BaseActivity

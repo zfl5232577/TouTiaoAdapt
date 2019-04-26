@@ -36,7 +36,8 @@
         android:layout_width="640mm"
         android:layout_height="100mm"
         android:background="#fd0"
-        android:text="CustomAdapt"
+        android:onClick="goCustomAdaptFragment"
+        android:text="CustomAdapt(Fragment)"
         android:textColor="#0d0"
         android:textSize="30mm"/>
 

@@ -1,15 +1,11 @@
-package com.mark.toutiaoadapt;
+package com.mark.toutiaoadapt.screenadapt;
 
 import android.app.Activity;
-import android.app.Application;
 import android.content.Context;
 import android.content.res.Resources;
 import android.util.DisplayMetrics;
-import android.view.Display;
-import android.view.WindowManager;
 
 import java.lang.reflect.Field;
-import java.util.Locale;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 

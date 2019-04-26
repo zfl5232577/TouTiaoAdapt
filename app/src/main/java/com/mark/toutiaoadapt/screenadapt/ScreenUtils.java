@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.mark.toutiaoadapt;
+package com.mark.toutiaoadapt.screenadapt;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -21,6 +21,7 @@ import android.graphics.Point;
 import android.os.Build;
 import android.provider.Settings;
 import android.util.DisplayMetrics;
+import android.util.TypedValue;
 import android.view.Display;
 import android.view.WindowManager;
 
@@ -118,5 +119,25 @@ public class ScreenUtils {
         int realHeight = getRawScreenSize(context)[1];
         int displayHeight = getScreenSize(context)[1];
         return realHeight - displayHeight;
+    }
+
+    public static int dp2px(Context context, float value) {
+        return (int) (TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, value, context.getResources().getDisplayMetrics()) + 0.5f);
+    }
+
+    public static int sp2px(Context context, float value) {
+        return (int) (TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_SP, value, context.getResources().getDisplayMetrics()) + 0.5f);
+    }
+
+    public static int pt2px(Context context, float value) {
+        return (int) (TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_PT, value, context.getResources().getDisplayMetrics()) + 0.5f);
+    }
+
+    public static int in2px(Context context, float value) {
+        return (int) (TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_IN, value, context.getResources().getDisplayMetrics()) + 0.5f);
+    }
+
+    public static int mm2px(Context context, float value) {
+        return (int) (TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_MM, value, context.getResources().getDisplayMetrics()) + 0.5f);
     }
 }

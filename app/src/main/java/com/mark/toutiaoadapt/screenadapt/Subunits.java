@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.mark.toutiaoadapt;
+package com.mark.toutiaoadapt.screenadapt;
 
 import android.util.DisplayMetrics;
 
