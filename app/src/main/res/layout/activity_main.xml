@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="320mm"
+            android:layout_height="100mm"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:text="W-320mm"
+            android:textColor="#fff"
+            android:textSize="30mm"/>
+
+        <TextView
+            android:layout_width="320mm"
+            android:layout_height="100mm"
+            android:background="#0d0"
+            android:gravity="center"
+            android:text="W-320mm"
+            android:textColor="#fff"
+            android:textSize="30mm"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="640mm"
+        android:layout_height="100mm"
+        android:background="#fd0"
+        android:text="CustomAdapt"
+        android:textColor="#0d0"
+        android:textSize="30mm"/>
+
+    <TextView
+        android:layout_width="640mm"
+        android:layout_height="100mm"
+        android:background="#d00"
+        android:gravity="center"
+        android:text="W-640mm(total:640mm)"
+        android:textColor="#fff"
+        android:textSize="30mm"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="310mm"
+            android:layout_height="100mm"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="W-310mm"
+            android:textColor="#fff"
+            android:textSize="30mm"/>
+
+        <TextView
+            android:layout_width="2mm"
+            android:layout_height="100mm"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="328mm"
+            android:layout_height="100mm"
+            android:background="#d0a"
+            android:gravity="center"
+            android:text="W-328mm"
+            android:textColor="#fff"
+            android:textSize="30mm"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="180mm"
+            android:layout_height="match_parent"
+            android:background="#aef"
+            android:gravity="center"
+            android:text="W-180mm"
+            android:textColor="#fff"
+            android:textSize="30mm"/>
+
+        <TextView
+            android:layout_width="170mm"
+            android:layout_height="match_parent"
+            android:background="#acf"
+            android:gravity="center"
+            android:text="W-170mm"
+            android:textColor="#fff"
+            android:textSize="30mm"/>
+
+        <TextView
+            android:layout_width="290mm"
+            android:layout_height="match_parent"
+            android:background="#fcf"
+            android:gravity="center"
+            android:text="W-290mm"
+            android:textColor="#fff"
+            android:textSize="30mm"/>
+    </LinearLayout>
+
+</LinearLayout>
